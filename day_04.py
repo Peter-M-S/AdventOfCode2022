@@ -19,7 +19,5 @@ def solve(puzzle):
 
 
 start = pfc()
-
 print(solve(read_puzzle('day_04.txt')))
-
 print(pfc() - start)
