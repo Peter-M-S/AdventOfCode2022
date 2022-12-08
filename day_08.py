@@ -3,8 +3,7 @@ from time import perf_counter as pfc
 
 def read_puzzle(file):
     with open(file) as f:
-        lines = f.read().split("\n")
-        return [[int(s) for s in line] for line in lines]
+        return [[int(s) for s in line] for line in f.read().split("\n")]
 
 
 def is_visible(r, c):
@@ -39,7 +38,7 @@ def solve(puzzle):
     part1 = 2 * (ROWS - 1 + COLS - 1)  # trees at the edges are all visible   # loop through inside trees only
     part1 += sum([is_visible(r, c) for r in range(1, ROWS - 1) for c in range(1, COLS - 1)])
     part2 = max([scenic_score(r, c) for r in range(1, ROWS - 1) for c in range(1, COLS - 1)])
-    # todo optimize by looping through inside trees only once for both parts?
+    # optimize by looping through inside trees only once for both parts? - I would need 3 loops instead of 2
     return part1, part2
 
 
