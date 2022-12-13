@@ -18,7 +18,7 @@ Day  9  chain of knots with depending movement in grid. os mudule to get own fil
 Day  10  loop reading commands and operation cycle running asynchronic<br>
 Day  11  distribution of modified items in a group. modulo of all_divisors limit numbers form getting too big. (not understood why)<br>
 Day  12  depth fist search (dfs) does not work or is too slow. How to know from the task that here is breadth first search (bfs) needed?<br>
-Day  13  convert sting reprsentation of lists and ints to "real" objects, using customized comparator for sorting (e.g bubblesort)<br>
+Day  13  convert sting reprsentation of lists and ints to "real" objects (json). Using customized comparator for sorting (e.g bubblesort)<br>
 <br>
 <br>
 <br>
