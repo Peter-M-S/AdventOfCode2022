@@ -20,5 +20,8 @@ Day  11  distribution of modified items in a group. modulo of all_divisors limit
 Day  12  depth fist search (dfs) does not work or is too slow. How to know from the task that here is breadth first search (bfs) needed?<br>
 Day  13  convert string reprsentation of lists and ints to "real" objects (json). Using customized comparator for sorting (e.g bubblesort)<br>
 Day  14  convert string representation of tuple to "real" object by eval(). Enlage grid dynamically<br>
+Day 15 manhattan distance reducing sets to the interesting points (e.g. intersection with certain line to handle huge coordinates numbers. No chance for me to solve part2<br>
+<br>
+<br>
 <br>
 <br>
