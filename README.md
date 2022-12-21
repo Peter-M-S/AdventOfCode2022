@@ -14,13 +14,13 @@ Day  5  regular expression (findall) while reading input file, stack handling<br
 Day  6  marker (n distinct chars) in a stream <br>
 Day  7  multiple branch tree structure, recursion<br>
 Day  8  grid analysis by slicing, transposing 2D list<br>
-Day  9  chain of knots with depending movement in grid. os mudule to get own filename<br>
+Day  9  chain of knots with depending movement in grid. os module to get own filename<br>
 Day  10  loop reading commands and operation cycle running asynchronic<br>
 Day  11  distribution of modified items in a group. modulo of all_divisors limit numbers form getting too big. (not understood why)<br>
 Day  12  depth fist search (dfs) does not work or is too slow. How to know from the task that here is breadth first search (bfs) needed?<br>
 Day  13  convert string reprsentation of lists and ints to "real" objects (json). Using customized comparator for sorting (e.g bubblesort)<br>
 Day  14  convert string representation of tuple to "real" object by eval(). Enlage grid dynamically<br>
-Day 15 manhattan distance. handling intervals (lo, hi) instead of all points. merge intervals<br>
+Day 15 manhattan distance. handling intervals (lo, hi) instead of all points. merge intervals.<br>
 <br>
 <br>
 <br>
