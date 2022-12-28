@@ -25,7 +25,7 @@ Day 16 <br>
 Day 17 <br>
 Day 18 touching sides of 3D cube grid as +/- .5 off grid nodes. Baeadth fisrt search for floodfill from outside<br>
 <br>
-Day 19 <br>
+Day 19 cut states of bfs by heuristic value but need to find the minimum number states to keep<br>
 Day 20 <br>
 Day 21 <br>
 Day 22 <br>
