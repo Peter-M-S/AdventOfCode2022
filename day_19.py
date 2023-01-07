@@ -69,11 +69,11 @@ def solve(data):
     part1 = 0
     robots = (1, 0, 0, 0)  # ore robo, clay robo, obsi robo, geode robo
     # why starts robots as a tuple- to start with same immutable tuple for part 2
-    # part1 = sum([bp[0] * bfs(bp, robots, 24) for bp in data])
+    part1 = sum([bp[0] * bfs(bp, robots, 24) for bp in data])
     part2 = 1
     for bp in data[:3]:
         a = bfs(bp, robots, 32)
-        print(a)
+        # print(a)
         part2 *= a
     return part1, part2
 
