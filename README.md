@@ -19,14 +19,14 @@ Day  10  loop reading commands and operation cycle running asynchronous<br>
 Day  11  distribution of modified items in a group. modulo of all_divisors limit numbers form getting too big. (not understood why)<br>
 Day  12  depth fist search (dfs) does not work or is too slow. How to know from the task that here is breadth first search (bfs) needed?<br>
 Day  13  convert string representation of lists and ints to "real" objects (json). Using customized comparator for sorting (e.g bubblesort)<br>
-Day  14  convert string representation of tuple to "real" object by eval(). Enlage grid dynamically<br>
+Day  14  convert string representation of tuple to "real" object by eval(). Enlarge grid dynamically<br>
 Day 15 manhattan distance. handling intervals (lo, hi) instead of all points. merge intervals.<br>
 Day 16 <br>
 Day 17 <br>
-Day 18 touching sides of 3D cube grid as +/- .5 off grid nodes. Baeadth fisrt search for floodfill from outside<br>
+Day 18 touching sides of 3D cube grid as +/- .5 off grid nodes. Breadth first search for floodfill from outside<br>
 <br>
 Day 19 cut states of bfs by heuristic value but need to find the minimum number states to keep<br>
-Day 20 <br>
+Day 20 move only indices as reference to numbers, not the numbers themselves. %-modulo operator to wrap around (jump from end to end of list) <br>
 Day 21 <br>
 Day 22 <br>
 Day 23 distribution on grid until steady state. synchronous move of all elements, not one after the other<br>

@@ -1,7 +1,6 @@
 from time import perf_counter as pfc
 import os
 
-
 def read_puzzle(file):
     with open(file) as f:
         return f.read().split("\n")
