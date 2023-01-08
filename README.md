@@ -22,7 +22,7 @@ Day  13  convert string representation of lists and ints to "real" objects (json
 Day  14  convert string representation of tuple to "real" object by eval(). Enlarge grid dynamically<br>
 Day 15 manhattan distance. handling intervals (lo, hi) instead of all points. merge intervals.<br>
 Day 16 <br>
-Day 17 collision check by sets. use while-loops to jump over huge range of counter. find repeated staed in look-up dict.<br>
+Day 17 collision check by sets. use while-loops to jump over huge range of counter. find repeated states in look-up dict.<br>
 Day 18 touching sides of 3D cube grid as +/- .5 off grid nodes. Breadth first search for floodfill from outside<br>
 <br>
 Day 19 cut states of bfs by heuristic value but need to find the minimum number states to keep<br>

@@ -89,7 +89,8 @@ def solve(data, part1=False, part2=False):
                 is_falling = False
                 fixed_rocks |= rock
                 height = max(height, rock_top)
-                key = (rock_idx, jet_idx, get_profile(fixed_rocks, height, 10))
+                key = (rock_idx, jet_idx, get_profile(fixed_rocks, height, 5))
+                # key = (rock_idx, jet_idx)
                 if key in states and not part2:
                     last_n, last_height = states[key]
                     rem_rocks = T - rock_count
@@ -98,12 +99,13 @@ def solve(data, part1=False, part2=False):
                     rock_count += repeats * (rock_count - last_n)
                     states = {}
                     part2 = True
+
+                if rock_count == 2021:
+                    part1 = height
+
                 if not part2:
                     states[key] = (rock_count, height)
                 rock_count += 1
-
-        if rock_count == 2021:
-            part1 = height
 
     part2 = height + offset
     return part1, part2
