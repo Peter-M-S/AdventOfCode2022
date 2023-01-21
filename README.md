@@ -28,7 +28,7 @@ Day 18 touching sides of 3D cube grid as +/- .5 off grid nodes. Breadth first se
 Day 19 cut states of bfs by heuristic value but need to find the minimum number states to keep<br>
 Day 20 move only indices as reference to numbers, not the numbers themselves. %-modulo operator to wrap around (jump from end to end of list)<br>
 Day 21 use "eval" to call strings as functions. use sympy to solve equation formally (works for complicated structure and very high numbers)<br>
-Day 22 <br>
+Day 22 jump from one edge of map to another on 2D and on 3D cube of this map (only hard coding, no algorithm?)<br>
 Day 23 distribution on grid until steady state. synchronous move of all elements, not one after the other<br>
 Day 24 <br>
 Day 25 convert number to base 5 and back with offset of digit into negative<br>
